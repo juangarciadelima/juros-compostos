@@ -5,7 +5,7 @@ const taxamensal = 1000
 
 function juroscompostos(){
 
-      return taxainicial*juros*tempo*taxamensal*12
+      return taxainicial*(1 + juros/100)**tempo
 
 }
 
